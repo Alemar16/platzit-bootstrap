@@ -17,41 +17,40 @@
   </head>
   <body>
     <!-- Header -->
-    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="assets/images/platzi-logo.png" alt="Platzi logo" />Conf
-          Hawaii</a
-        >
+          Hawaii</a>
         <button
           class="navbar-toggler"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbar">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
+              <a class="nav-link" href="#main"
                 >La Conferencia</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Los Oradores</a>
+              <a class="nav-link" href="#speakers">Los Oradores</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">El Lugar y la Fecha</a>
+              <a class="nav-link" href="#place-time">El Lugar y la Fecha</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Conviértete en Orador</a>
+              <a class="nav-link" href="#conviertete-en-orador">Conviértete en Orador</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-platzi" href="#">Comprar Tickets</a>
+              <a class="nav-link text-platzi" href="#modalCompra">Comprar Tickets</a>
             </li>
           </ul>
         </div>
@@ -120,16 +119,25 @@
                 <div class="card">
                   <img src="assets/speakers/sacha.jpg" class="card-img-top" alt="Foto de Sacha">
                   <div class="card-body">
+                    <div class="badges">
+                      <span class="badge badge-warning">JavaScript</span>
+                      <span class="badge badge-info">React</span>
+                    </div>
                     <h5 class="card-title">Sacha Lifszyc</h5>
+                    
                     <p class="card-text">Curabitur ornare a felis sit amet cursus. Mauris euismod egestas scelerisque. In porttitor metus id eleifend scelerisque. Fusce dui urna, condimentum non nisl in, blandit egestas lorem.</p>
                   </div>
                 </div>
               </div>
               <div class="col-md-4 mt-4">
                 <div class="card">
-                  <img src="assets/speakers/leonidas.jpeg" class="card-img-top" alt="Foto de Leonidas">
+                  <img src="assets/speakers/leonidas2.jpeg" class="card-img-top" alt="Foto de Leonidas">
                   <div class="card-body">
-                    <h5 class="card-title">Leonidas Esteban</h5>
+                    <div class="badges">
+                      <span class="badge badge-warning">JavaScript</span>
+                      <span class="badge badge-info">React</span>
+                    </div>
+                    <h5 class="card-title mb-0">Leonidas Esteban</h5>
                     <p class="card-text">Curabitur ornare a felis sit amet cursus. Mauris euismod egestas scelerisque. In porttitor metus id eleifend scelerisque. Fusce dui urna, condimentum non nisl in, blandit egestas lorem.</p>
                   </div>
                 </div>
@@ -138,7 +146,11 @@
                 <div class="card">
                   <img src="assets/speakers/freddy.jpeg" class="card-img-top" alt="Foto de Freddy Vega">
                   <div class="card-body">
-                    <h5 class="card-title">Freddy Vega</h5>
+                    <div class="badges">
+                      <span class="badge badge-secondary">Negocios</span>
+                      <span class="badge badge-danger">Startups</span>
+                    </div>
+                    <h5 class="card-title mb-0">Freddy Vega</h5>
                     <p class="card-text">Curabitur ornare a felis sit amet cursus. Mauris euismod egestas scelerisque. In porttitor metus id eleifend scelerisque. Fusce dui urna, condimentum non nisl in, blandit egestas lorem.</p>
                   </div>
                 </div>
@@ -147,7 +159,11 @@
                 <div class="card">
                   <img src="assets/speakers/cvander.jpeg" class="card-img-top" alt="Foto de Cvander">
                   <div class="card-body">
-                    <h5 class="card-title">Christian Van Der H.</h5>
+                    <div class="badges">
+                      <span class="badge badge-secondary">Negocios</span>
+                      <span class="badge badge-danger">Startups</span>
+                    </div>
+                    <h5 class="card-title mb-0">Christian Van Der H.</h5>
                     <p class="card-text">Curabitur ornare a felis sit amet cursus. Mauris euismod egestas scelerisque. In porttitor metus id eleifend scelerisque. Fusce dui urna, condimentum non nisl in, blandit egestas lorem.</p>
                   </div>
                 </div>
